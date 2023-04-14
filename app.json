@@ -1,91 +1,92 @@
 {
-  "name": "𓏺 .〝𝘼𝙑⍢⃝𝙎𝙊𝙐𝙍𝘾𝞝〞. 🕷 ˼",
-  "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/7feab0ed9bcf76d2dae43.jpg",
-  "keywords": [
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "https://github.com/SWADSOURCE/S/",
-  "website": "#TODO",
-  "success_url": "#TODO",
-  "env": {
-    "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من 8 ارقام", 
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
-      "value": ""
-    },
-    "ENV": {
-      "description": "لا تغير هذه القيمه",
-      "value": "ANYTHING"
-    },
-    "COMMAND_HAND_LER": {
-      "description": "لا تغير هذه القيمه",
-      "value": "."
-    },
-    "STRING_SESSION": {
-      "description": "هنا ضع كود جلسة بايروجرام او تيليثون كود تيرمكس الخاص بك",
-      "value": ""
-    },
-    "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك الذي صنعته",
-      "value": ""
-    },
-    "HEROKU_API_KEY": {
-      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
-      "value": "",
-      "required": false
-    },
-    "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
-      "value": "Africa/Cairo",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "رمز السورس لا تغيره ابدا",
-      "value": "sbb_b",
-      "required": false
-    }
-  },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
-    }
-  }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
-  }]
+  "name": "𓏺 .〝𝘼𝙑⍢⃝𝙎𝙊𝙐𝙍𝘾𝞝〞. 🕷 ˼",
+  "description": "اللهم صلِ على محمد وآل محمد",
+  "logo": "https://telegra.ph/file/7feab0ed9bcf76d2dae43.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/SWADSOURCE/S/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "هنا ضع الايبي ايدي الخاص بك يتكون من 8 ارقام", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك",
+      "value": ""
+    },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغير هذه القيمه",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "هنا ضع كود جلسة بايروجرام او تيليثون كود تيرمكس الخاص بك",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
+      "value": "",
+      "required": false
+    },
+    "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "ضع هنا ايدي الجروب الاول  شرح كامل هناا  @FTTUTT7 الافضل لك تشوف الطريقة",
+      "value": "",
+      "required": false
+    },
+    "PM_LOGGER_GROUP_ID": {
+      "description": "ضع هنا ايدي الجروب الثاني او نفس الاول",
+      "value": "",
+      "required": false
+    }, 
+    "TZ": {
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "value": "Africa/Cairo",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/danzzcoding/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22"
 }
-  
